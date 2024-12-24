@@ -1,7 +1,7 @@
 -- [[ Global variables ]]
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
 
 -- [[ Setting options ]]
 vim.opt.number = true
@@ -26,4 +26,3 @@ vim.opt.scrolloff = 10
 vim.schedule(function()
   vim.opt.clipboard = 'unnamedplus'
 end)
-
